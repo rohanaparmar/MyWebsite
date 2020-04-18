@@ -1,0 +1,89 @@
+<script>
+function message(){
+	if(false) {	alert("Sorry Your Message is not recorded"); return false;}
+	else{
+	alert("Your Message is recorded, Thank You"); return true;}
+	}
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Description" content="This website is about me on my coding career, made by ROHAN PARMAR">
+<meta name="keyword" content="Rohan,Rohan Parmar,Parmar">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<title>Contact Me</title>
+<body>
+
+<header style="background-color:aliceblue">
+<div class="container">
+<div class="div1"><br></div>
+	<div class="row">
+		<div class="col-lg-2 col-sm-5">
+			<a href="index.html" id="about" >About</a>
+		</div>
+		<div class="col-lg-2 col-sm-5">
+			<a href="project.html"  id="project">Project</a>
+		</div>
+		<div class="col-lg-2 col-sm-5">
+			<a href="gallary.html" id="gallary">Gallary</a>
+		</div>
+		<div class="col-lg-2 col-sm-5">
+			<a href="channel.html" id="channel">Channels</a>
+		</div>
+		<div class="col-lg-2 col-sm-5">
+			<a href="contact.html" id="contact">Contact</a>
+		</div>
+	</div>
+</div>
+<hr>
+</header>
+
+<center>
+<h1>Contact ME</h1>
+<hr>
+<br>
+<form onsubmit="return message();">
+<table cellpadding="10">
+<tr>
+<td>
+<label>Name</label>
+</td>
+<td>
+<input type="text" maxlength="20" name="name" placeholder="Enter Your Name" required>
+</td>
+</tr>
+<tr>
+<td>
+<label>Email id</label>
+</td>
+<td>
+<input type="email" name="email" placeholder="Enter Your Email" required>
+</td>
+</tr>
+<tr>
+<td>
+<label>Phone No</label>
+</td>
+<td>
+<input type="number" maxlength="10" placeholder="Enter Your Contact" name="phone" required>
+</td>
+</tr>
+<tr>
+<td>
+<label>Message</label>
+</td>
+<td>
+<textarea name="message" placeholder="Enter Your Message" required></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<center>
+<input type="submit" name="submit" style="margin-right:20px">
+<input type="reset" name="reset" style="margin-left:20px">
+</center>
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
